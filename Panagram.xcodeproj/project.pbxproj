@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AE9CF8A325FE80A500E675C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8A225FE80A500E675C5 /* main.swift */; };
+		AE9CF8AB25FE813E00E675C5 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8AA25FE813E00E675C5 /* ConsoleIO.swift */; };
+		AE9CF8AE25FE81EC00E675C5 /* Panagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8AD25FE81EC00E675C5 /* Panagram.swift */; };
+		AE9CF8B125FE838600E675C5 /* stringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CF8B025FE838600E675C5 /* stringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		AE9CF89F25FE80A500E675C5 /* Panagram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Panagram; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9CF8A225FE80A500E675C5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AE9CF8AA25FE813E00E675C5 /* ConsoleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		AE9CF8AD25FE81EC00E675C5 /* Panagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panagram.swift; sourceTree = "<group>"; };
+		AE9CF8B025FE838600E675C5 /* stringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				AE9CF8A225FE80A500E675C5 /* main.swift */,
+				AE9CF8B025FE838600E675C5 /* stringExtension.swift */,
+				AE9CF8AA25FE813E00E675C5 /* ConsoleIO.swift */,
+				AE9CF8AD25FE81EC00E675C5 /* Panagram.swift */,
 			);
 			path = Panagram;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9CF8B125FE838600E675C5 /* stringExtension.swift in Sources */,
 				AE9CF8A325FE80A500E675C5 /* main.swift in Sources */,
+				AE9CF8AB25FE813E00E675C5 /* ConsoleIO.swift in Sources */,
+				AE9CF8AE25FE81EC00E675C5 /* Panagram.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
